@@ -1,0 +1,86 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Type checkers / linters / formatters
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Testing & coverage
+.pytest_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.nox/
+
+# --- Secrets & local env (never commit API keys) ---
+.env
+.env.*
+!.env.example
+
+# --- IDE & editors ---
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs & temp ---
+*.log
+tmp/
+temp/
+*.tmp
+
+# --- Project artifacts (per-run_id: artifacts/<run_id>/cache|reports) ---
+artifacts/
+
+# Large TVQA+ assets: uncomment if you keep data outside git (e.g. LFS or download script)
+data/
+*.pickle
+
+note.sh
+
+test*
+tests/
+SCOPE_TVQA_PLUS_MKG_RAG.md
